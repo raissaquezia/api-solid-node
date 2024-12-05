@@ -1,6 +1,4 @@
-import { hash } from "bcryptjs";
-import { prisma } from "@/lib/prisma";
-import { PrismaUsersRepository } from "@/repositories/prisma/prisma-users-repository";
+import { hash } from "bcrypt";
 import { UsersRepository } from "@/repositories/users-repository";
 import { EmailAlreadyExistsError } from "@/services/errors/email-already-exists-error";
 
